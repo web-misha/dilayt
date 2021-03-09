@@ -658,7 +658,7 @@ h3 {
   margin-bottom: calc( 39px + 4 * ((100vw - 320px) / 2240));
 }
 
-.how_block::last-child {
+.how_block:last-child {
   margin-bottom: calc( 50px + 10 * ((100vw - 320px) / 2240));
 }
 
