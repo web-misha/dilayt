@@ -472,8 +472,8 @@ h3 {
 }
 
 .header_main {
-  padding-top: calc( 81px + 75 * ((100vw - 320px) / 2240));
-  padding-bottom: calc( 16px + 83 * ((100vw - 320px) / 2240));
+  padding-top: calc( 115px + 41 * ((100vw - 320px) / 2240));
+  padding-bottom: calc( 25px + 74 * ((100vw - 320px) / 2240));
   padding-left: calc( 15px + 208 * ((100vw - 320px) / 2240));
   padding-right: calc( 15px + 179 * ((100vw - 320px) / 2240));
 }
@@ -1046,8 +1046,8 @@ hr {
     text-align: left;
   }
 
-  .swiper-slide {
-    margin-right: 23px;
+  .swiper-slide_img img {
+    width: 90px;
   }
 }
 
