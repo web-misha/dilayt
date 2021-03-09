@@ -584,7 +584,7 @@ h3 {
 .section_system h2::before {
   content: "";
   position: absolute;
-  bottom: calc( -18px + -42 * ((100vw - 320px) / 2240));
+  bottom: calc( -30px + -30 * ((100vw - 320px) / 2240));
   left: 50%;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
