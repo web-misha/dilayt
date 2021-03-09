@@ -676,7 +676,7 @@ h3 {
 }
 
 .how_block h3::before {
-  content: url(../img/arrow.png);
+  content: url(../img/arrow.svg);
   position: absolute;
   top: 50%;
   left: -30px;
@@ -982,7 +982,7 @@ hr {
 
   .header_burger::before {
     top: 0;
-    height: 3.5px;
+    height: 3px;
   }
 
   .header_burger::after {
