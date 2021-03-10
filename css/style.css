@@ -456,17 +456,17 @@ h3 {
   display: flex;
 }
 
-.header_list li a {
+.header_list a {
   font-family: "LatoSB";
   font-size: calc( 24px + -6 * ((100vw - 320px) / 2240));
   margin-right: 35px;
 }
 
-.header_list li a:focus {
+.header_list a:focus {
   color: #FF4C00;
 }
 
-.header_list li a:hover {
+.header_list a:hover {
   color: #FF4C00;
 }
 
@@ -837,9 +837,9 @@ form p::before {
   font-family: "LatoR";
   text-align: center;
   color: white;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
   outline: none;
   text-transform: uppercase;
   padding-top: calc( 15px + 5 * ((100vw - 320px) / 2240));
@@ -992,6 +992,10 @@ hr {
 
   .navigation_menu.active {
     right: -50%;
+  }
+
+  .header_list {
+    display: block;
   }
 
   .header_list a {
