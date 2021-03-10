@@ -91,9 +91,11 @@ let check_p = document.getElementById("form_check_p");
 let span = document.getElementById("cehckbox_fake");
 
 function validate() {
-  if (!tel.value | !check.checked) {
+  if (!tel.value) {
     tel.style.border = "2px solid red";
     tel_p.classList.add("tel_p_active");
+    return false;
+  } else if (!check.checked) {
     check_p.classList.add("form_check_p_active");
     span.classList.add("cehckbox_fake_active");
     return false;
@@ -103,7 +105,6 @@ function validate() {
     check_p.classList.remove("form_check_p_active");
     span.classList.remove("cehckbox_fake_active");
   }
-  
 }
 
 /*
